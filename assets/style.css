@@ -93,11 +93,11 @@ img:hover {
   color: var(--off-black);
 }
  
-/* @media screen and (max-width:500px){
+@media screen and (max-width:500px){
     .scene{
         height: 70vh;
     }
     .card_details{
         height: 50%;
     }
-} */
+}
