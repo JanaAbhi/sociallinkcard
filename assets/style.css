@@ -75,6 +75,7 @@ img:hover {
   color: var(--white);
   font-weight: 400;
   font-size: 0.875rem;
+  text-align: center;
 }
 .card_details{
   text-align: center;
