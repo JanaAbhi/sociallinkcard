@@ -99,11 +99,4 @@ img:hover {
   color: var(--white);
 }
 
-@media screen and (max-width:600px) {
-  .content{
-    margin-top: 8rem;
-  }
-  .attribution{
-    padding-top: 2rem;
-  }
-}
+
