@@ -101,7 +101,7 @@ img:hover {
 
 @media screen and (max-width:600px) {
   .content{
-    margin-top: 8rem;
+    margin-top: 6rem;
   }
   .attribution{
     padding-top: 2rem;
