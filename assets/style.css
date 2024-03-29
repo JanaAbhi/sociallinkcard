@@ -21,6 +21,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 a {
   text-decoration: none;
@@ -39,6 +40,7 @@ ul {
   max-width: 20rem;
   max-height: 100%;
   border-radius: 0.5rem;
+  
 }
 .card_avatar {
   width: 5.6rem;
@@ -62,41 +64,32 @@ img:hover {
 }
 .address {
   color: var(--green);
-  font-size: 1rem;
-  letter-spacing: 0.2rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
   margin-bottom: 1.7rem;
-  text-align:end;
+  text-align:center;
+  font-weight: 600;
 }
 .description {
   margin-bottom: 1.5rem;
   color: var(--white);
+  font-weight: 400;
+  font-size: 0.875rem;
 }
-.card_details {
+.card_details{
+  text-align: center;
+}
+.list_items {
   display: grid;
-  row-gap: 1.1rem;
-  background-color: rgba(0, 0, 0, 0);
-}
-
-button{
-    border-radius: 0.6rem;
-    height: 2.8rem;
-    background-color: var(--grey);
-    border: 0;
+  row-gap: 20px;
+  background-color: var(--grey);
+  border-radius: 8px;
+  margin-top: 6%;
 }
 .btn_links{
-  font-weight: 600;
+  padding: 15px;
   color: var(--white);
 }
-.card_details :hover {
+.list_items:hover{
   background-color: var(--green);
-  color: var(--off-black);
-}
- 
-@media screen and (max-width:500px){
-    .scene{
-        height: 70vh;
-    }
-    .card_details{
-        height: 50%;
-    }
 }
